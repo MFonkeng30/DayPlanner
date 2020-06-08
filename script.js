@@ -201,3 +201,10 @@ function testTime() {
         $(".form9").addClass("present");
     };
 }    
+testTime();
+
+var x = [9, 10, 11, 12, 1, 2, 3, 4, 5];
+
+for (var i = 0; i < x.length; i++);
+
+$(".form" + x[i]).valueOf(dataHour);
