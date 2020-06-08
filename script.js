@@ -15,3 +15,10 @@ var time1 = beforeTime.add(0, "h");
 time1 = time1.format('hh:mm A');
 
 $(".block1").text(time1);
+
+//10 AM
+var time2 = beforeTime.add(1, "h");
+
+time2 = time2.format('hh:mm A');
+
+$(".block2").text(time2);
