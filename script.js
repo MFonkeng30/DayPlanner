@@ -201,10 +201,13 @@ function testTime() {
         $(".form9").addClass("present");
     };
 }    
+//Call function
 testTime();
 
 var x = [9, 10, 11, 12, 1, 2, 3, 4, 5];
 
-for (var i = 0; i < x.length; i++);
+for (var i = 0; i < x.length; i++); {
+    var dataHour = localStorage.getItem(x[i]);
 
-$(".form" + x[i]).valueOf(dataHour);
+$(".form" + x[i]).val(dataHour);
+}
