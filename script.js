@@ -3,8 +3,6 @@ moment(Date);
 $("#currentDay").text(moment().format('dddd MMMM Do YYYY, h:mm a'));
 //Moment Current time
 var currentTime = moment();
-//Returns Current time to nearest hour
-currentTime = currentTime.startof("hour");
 //Calculates start of day + 9 to return 9am
 var beforeTime = moment().startof('day').add(9, "hours");
 
