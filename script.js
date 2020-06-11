@@ -80,13 +80,13 @@ function testTime() {
     currentTime = currentTime.startOf("hour");
     // Add time1 if/else
     if (currentTime.isAfter(time1)) {
-        $(".form9").addClass(".past");
+        $(".form9").addClass("past");
     }
     else if (currentTime.isBefore(time1)) {
-        $(".form9").addClass(".future");
+        $(".form9").addClass("future");
     }
     else if (currentTime.isSame(time1)) {
-        $(".form9").addClass(".present");
+        $(".form9").addClass("present");
     };
     // Add time2 10AM
     time2 = moment().startOf('day').add(9, "hours");
@@ -210,7 +210,7 @@ var x = [9, 10, 11, 12, 1, 2, 3, 4, 5];
 for (var i = 0; i < x.length; i++); {
     var dataHour = localStorage.getItem(x[i]);
 
-$(".form" + x[i]).val(dataHour);
+    $(".form" + x[i]).val(dataHour);
 }
 
 //Event listener for local storage
