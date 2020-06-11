@@ -1,6 +1,6 @@
 //Moment declartion of day and time
 moment(Date);
-$("#currentDay").text(moment().format('MMMM Do YYYY, h:mm:ss a'));
+$("#currentDay").text(moment().format('dddd MMMM Do YYYY, h:mm a'));
 //Moment Current time
 var currentTime = moment();
 //Returns Current time to nearest hour
