@@ -8,7 +8,7 @@ currentTime = currentTime.startOf("hour");
 //Calculates start of day + 9 to return 9am
 var beforeTime;  
 
-beforeTime = moment().startof('day').add(9, "hours");
+beforeTime= startof('day').add(9, "hours");
 
 //Time Blocks
 //9 AM 
